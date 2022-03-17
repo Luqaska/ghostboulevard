@@ -1,7 +1,7 @@
 var estado;
 function checkearEstado(){
   try{
-    fetch('https://ghost.television.si/data/index.json')
+    fetch('https://gbs.beikvar.cf/data.json')
       .then(response => response.json())
       .then(function(data){
         if(data["status"]==1){estado="Online";}else if(data["status"]==0){estado="Offline";}else{estado="Error";}
@@ -9,7 +9,7 @@ function checkearEstado(){
       });
   }
   catch(err){
-    document.getElementById("estado").innerHTML = "<iframe src='https://ghost-systems.lu700.repl.co/estado.php' style='border:none;height:50px'></iframe>";
+    document.getElementById("estado").innerHTML = "<iframe src='https://gbs.beikvar.cf/estado.php' style='border:none;height:50px'></iframe>";
   }
 }
 checkearEstado();
