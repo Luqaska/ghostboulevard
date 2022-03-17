@@ -1,0 +1,9 @@
+@import url("https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css");
+body{text-align:center;background:black;color:white;font-family:sans-serif;padding:2% 20%;margin:0;}
+header{text-align:center;}
+a{color:white;}header a{text-decoration:none;}
+/*audio{background:#f1f3f4;}*/
+span.ap_time{display:none;}
+audio,iframe{border-radius:10px;}
+iframe,footer{margin:5% 0 0 0;}
+#footerer{margin:5px 0 0 0;}
